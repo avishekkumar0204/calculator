@@ -18,7 +18,7 @@
 .calculatorBody{
     display: flex;
     flex-direction: column;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
     background-color: black;
     /* border:2px solid red; */
     height: 100%;
@@ -31,8 +31,8 @@
     height: 30%;
     width:100%;
     border:1px solid black;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
+    /* border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem; */
 }
 
 
@@ -45,8 +45,8 @@
     border:1px solid black;
     flex-direction: column;
     
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    /* border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem; */
     /* background-color: red; */
 }
 .firstRow,.secondRow,.thirdRow,.forthRow,.fifthRow{
