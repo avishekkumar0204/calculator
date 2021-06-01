@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+}
+.flexBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background-color: aliceblue;
+    height: 100vh;
+    width:100vw;
+}
+/* Calculator body starts from here  */
+.calculatorBody{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    background-color: black;
+    /* border:2px solid red; */
+    height: 70%;
+    width:22%;
+
+}
+
+/* Calculator screen starts from here  */
+.calculatorScreen{
+    height: 30%;
+    width:100%;
+    border:1px solid black;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+
+/* Calculator bottons starts from here  */
+
+.calculatorButtons{
+    display: flex;
+    height: 70%;
+    width:100%;
+    border:1px solid black;
+    flex-direction: column;
+    
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    /* background-color: red; */
+}
+.firstRow,.secondRow,.thirdRow,.forthRow,.fifthRow{
+    /* border: 1px solid red; */
+    margin-top: 0.9rem;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: blue; */
+}
+.button{
+    display: flex;;
+    height:90%;
+    width:20%;
+
+    justify-content: center;
+    align-items: center;
+    /* margin: 0.5rem 0.6rem; */
+    background-color: gray;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+.zero,.other{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.zero .button{
+    height: 90%;
+    width:90%;
+    justify-content: center;
+    align-items: center;
+}
+.other .button{
+    width: 42%;
+    height: 90%;
+
+    
+}
+
+/* media queries  */
+@media screen and (max-width:700px) {
+    .calculatorBody{
+        height:100vh;
+        width:100vh;
+    }
+    
+}
+@media screen and (min-width:700px) and (max-width: 900px){
+    .calculatorBody{
+        height:100vh;
+        width:80vh;
+    }
+}
+@media screen and (min-width:900px){
+    .calculatorBody{
+        height:100vh;
+        width:70vh;
+    }
+}
